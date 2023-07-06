@@ -11,3 +11,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.password-container {
+  width: 50%;
+  margin: auto auto;
+  background-color: rgb(65, 64, 64);
+}
+
+
+.password-with-copy {
+  color: #fff;
+  padding: 25px;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px;
+   background-color: #e88024;
+  border-radius: 5px;
+  border: 1px solid #e88024;
+  cursor: pointer;  
+  text-transform: uppercase;
+  font-weight: 700; 
+  color:#fff; 
+
+
+}
+
+.charlength {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 25px;
+}
+
+.charlength span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.checkboxes{
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 16px;
+  color:#fff;
+  padding: 25px;
+   
+}
+
+.checkboxes div{
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+}
+
+.strength-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.gen-pwd-btn {
+  width: 100%;  
+}
+
+.err-msg {
+  color: red;
+  font-weight: bold;
+  padding: 0px 25px;
+  /* padding-top: 0px; */
+}
+
+
+
+.left-nav {
+  padding: 0px;
+  margin: 10px;
+  list-style: none; 
+}
+
+.left-nav li {
+   padding: 5px;
+}
+
+.left-nav li a {
+  text-decoration: none;
+  color: #1c83ea;   
+}
+
+.left-nav li a:hover { 
+  text-decoration: underline;
+  color:#1383ba
+}
